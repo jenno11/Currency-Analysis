@@ -1,0 +1,20 @@
+Project title: Currency analysis 
+
+Team Members: Damien Jennings, Paris Zhang, Kane Moore
+
+Project description: Analyse top ten traded currency pairs and give a visual analysis along with some key data metrics and a potential trade signal. 
+Top ten we will use are:
+EUR/USD (Euro/US Dollar)
+USD/JPY (US Dollar/Japanese Yen)
+GBP/USD (British Pound/US Dollar)
+USD/CAD (US Dollar/Canadian Dollar)
+AUD/USD (Australian Dollar/US Dollar)
+USD/CHF (US Dollar/Swiss Franc)
+NZD/USD (New Zealand Dollar/US Dollar)
+EUR/GBP (Euro/British Pound Sterling)
+USD/HKD (US Dollar/Hong Kong Dollar)
+USD/KRW (US Dollar/South Korean Won)
+
+Questions to be answered through this project: Developing trading signals through historical data
+
+Datasets to be used: Pandas, Numpy, TAlib, HVplot, Matplotlib, Path, API will  be from currencyscoop.com
