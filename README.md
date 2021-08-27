@@ -9,13 +9,16 @@
 
 
 ## Questions to ask are:
-###  - What problem does the app attempt to solve? Attempting to create a momentum strategy by using historical data, the RSI indicator, and comparing the selected currency pair with come other top traded currency pairs using the same base currency.
+###  - What problem does the app attempt to solve? 
+### Attempting to create a momentum strategy by using historical data, the RSI indicator, and comparing the selected currency pair with come other top traded currency pairs using the same base currency.
 
 
 
-### - How does the app solve this problem at a high-level? We have used tradermate, the main currency pair we focused on was AUDUSD solved by extracting 12 months data from the last trading day using daily data, from that we sliced the data to give us 6 month and 3 month trends, as well as retrieving 1 month data using hourly data. We correlated this with NZD, CAD, EUR, GBP to find any similarities and/or patterns. We used the python library Talib to run an RSI measure on our yearly data to be able to give us a buy, hold or sell signal. The strategy is well known and widely used, being if the RSI gets over ‘70, it is over bought and its time to sell, and if it falls below 30, its over sold and time to sell.
+### - How does the app solve this problem at a high-level? 
+### We have used tradermate, the main currency pair we focused on was AUDUSD solved by extracting 12 months data from the last trading day using daily data, from that we sliced the data to give us 6 month and 3 month trends, as well as retrieving 1 month data using hourly data. We correlated this with NZD, CAD, EUR, GBP to find any similarities and/or patterns. We used the python library Talib to run an RSI measure on our yearly data to be able to give us a buy, hold or sell signal. The strategy is well known and widely used, being if the RSI gets over ‘70, it is over bought and its time to sell, and if it falls below 30, its over sold and time to sell.
 
-### - What steps were taken to build the app? Registered for API key, read and understood API/SDK documentation. Pulled the data into the code. We saved the data into a CSV file so that we were not pulling as much data due to limited access on the API. We also did this in case we lost any data, we were still able to run our program. We created visual charts to see overall patterns and trends of the pairs, calculated daily returns and correlation. Also showed descriptive statistics to get an overall view of AUDUSD. We used the python library Talib to run an RSI measure on our yearly data to be able to give us a buy, hold or sell signal. The strategy is well known and widely used, being if the RSI gets over ‘70, it is over bought and its time to sell, and if it falls below 30, its over sold and time to sell. 
+### - What steps were taken to build the app? 
+### Registered for API key, read and understood API/SDK documentation. Pulled the data into the code. We saved the data into a CSV file so that we were not pulling as much data due to limited access on the API. We also did this in case we lost any data, we were still able to run our program. We created visual charts to see overall patterns and trends of the pairs, calculated daily returns and correlation. Also showed descriptive statistics to get an overall view of AUDUSD. We used the python library Talib to run an RSI measure on our yearly data to be able to give us a buy, hold or sell signal. The strategy is well known and widely used, being if the RSI gets over ‘70, it is over bought and its time to sell, and if it falls below 30, its over sold and time to sell. 
 
 ## Analysis Currencies
 
