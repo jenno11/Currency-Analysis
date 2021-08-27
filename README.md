@@ -40,3 +40,9 @@
 ## Trading Signal
 #### Using the RSI indicator, we have a buy signal
 <img width="255" alt="-5" src="https://user-images.githubusercontent.com/84065878/131076337-ad43228b-ae0b-4189-a5d7-c47b5b10a0b1.png">
+
+### We have found the highest correlated currency with AUD is the NZD (New Zealand Dollar)
+### The least correlated with the AUD is GRP (Brittish Pounds) and the EUR (EURO).
+
+### Trading advise using the RSI indicator 
+### We set the trading signal as high limit = 70% and low limit = 30%, according to our signal we have a 'buy' trading signal.
