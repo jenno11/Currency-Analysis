@@ -1,4 +1,3 @@
-# project1
 
 ## Project title: 
 ### Currency Analysis
